@@ -1,0 +1,181 @@
+#home_content,#home_content2
+{
+  background: #F4F4F4;
+  padding-bottom: 5rem;
+  .user_img_m
+  {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+  }
+  .badge_usr
+  {
+    position: absolute;
+    width: 1.7rem;
+    height: 1.7rem;
+    right: 5%;
+    bottom: 5%;
+  }
+  .content_mn
+  {
+    height: 23rem!important;
+    overflow: hidden!important;
+  }
+  img
+  {
+    width: 100%;
+    height: 100%;
+  }
+  .icons
+  {
+    a
+    {
+      color: #ADADAD;
+      font-size: 11px;
+      &:hover
+      {
+        text-decoration: none;
+      }
+    }
+  }
+  .skill_user
+  {
+    a
+    {
+      font-family: 'Nunito', sans-serif;
+      background: #FEFEFE;
+      margin: .2rem;
+      padding: .2rem .3rem;
+      color:  #393434;
+      font-weight: 400;
+      font-size: 9px;
+      border-radius: 2px;
+    }
+  }
+  .image
+  {
+    position: relative;
+    width: 100%;
+    height: 17rem;
+    background: #FFFFFF;
+    .img_sect
+    {
+      box-shadow: 0 1px 2px rgba(0, 0, 0, 0.08);
+      border-radius: 2px;
+      padding: .3rem;
+      width: 100%;
+      height: 100%;
+      display: block;
+      position: absolute;
+    }
+    .icons
+    {
+      background: rgba(243, 244, 246, 0.5);
+      color: #F2F2F2;
+      z-index: 99;
+      right: .5rem;
+      top: .5rem;
+      border-radius: 12px;
+      position: absolute;
+      padding: .5rem .7rem;
+    }
+    .user
+    {
+      position: absolute;
+      right: 0;
+      left: 0;
+      bottom: -1.7rem;
+      z-index: 22;
+      a
+      {
+        &:hover
+        {
+          text-decoration: none;
+        }
+      }
+      .name_home
+      {
+        overflow: hidden;
+        color: #FEFEFE;
+        font-style: normal;
+        font-size: 15px;
+        line-height: 2.7;
+        padding-left: .7rem;
+        padding-right: .7rem;
+        font-weight: 600;
+        margin-top: 10%;
+        background: rgba(85, 100, 231, 0.5);
+        border-radius: 0 20px;
+        height: 2.7rem;
+        display: block;
+      }
+    }
+    .icons_section
+    {
+      position: absolute;
+      width: 100%;
+      bottom: -3.5rem;
+      background: $white;
+      height: 4rem;
+      .row
+      {
+        margin-right: -5px!important;
+      }
+      .icon
+      {
+        a
+        {
+          font-weight: 300;
+          color: #ADADAD;
+          font-size: 9px;
+          &:hover
+          {
+            text-decoration: none;
+          }
+        }
+      }
+    }
+    .category_user
+    {
+      padding-left: .3rem;
+      padding-right: .3rem;
+      font-size: 13px;
+      font-weight: 400;
+      background: $white;
+      color: #4E4F4D;
+    }
+    .history_user
+    {
+      padding-bottom: .3rem;
+      padding-left: .3rem;
+      padding-right: .3rem;
+      background: $white;
+      .heading
+      {
+        line-height: 2.3;
+        color: #393939;
+        font-size: 16px;
+        font-family: 'Nunito', sans-serif;
+        &:hover
+        {
+          text-decoration: none;
+        }
+      }
+      .btns
+      {
+        background: #5564E7;
+        border-radius: 20px;
+        text-align: center;
+        color: $white;
+        padding: .3rem 1rem;
+        font-size: 13px;
+        display: block;
+        &:hover
+        {
+          text-decoration: none;
+        }
+      }
+    }
+  }
+}

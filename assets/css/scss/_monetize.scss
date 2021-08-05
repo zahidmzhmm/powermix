@@ -1,0 +1,219 @@
+.earning_overview
+{
+  background: #F4F4F4;
+  .available
+  {
+    font-family: "Nunito Sans";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    color: #616677;
+  }
+  .baltxt
+  {
+    margin-left: 1.3rem;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.00615385em;
+    color: #fff;
+    margin-top: 2rem;
+  }
+  .available_blnc
+  {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 34px;
+    line-height: 41px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.0120588em;
+  }
+  .card_num
+  {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.016em;
+  }
+  .expt_card
+  {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    display: flex;
+    padding-left: 0!important;
+    align-items: center;
+    color: #FFFFFF;
+  }
+  .setupbanktxt
+  {
+    font-family: "Nunito Sans";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    text-decoration-line: underline;
+    color: #000000;
+  }
+  .balancer_nm
+  {
+    font-family: "Nunito Sans";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 49px;
+    color: #02A500;
+  }
+  .withdraw_txtlnk
+  {
+    display: block;
+    margin-top: 1.5rem;
+    font-family: "Nunito";
+    color: #5564E7;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+  }
+  .inc_txt
+  {
+    font-family: "Nunito Sans";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    color: #616677;
+  }
+  .inc_amnt
+  {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FF6262;
+  }
+  .mywltxt
+  {
+    font-family: "Nunito Sans";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    color: #000000;
+  }
+  .card_bank
+  {
+    max-width: 28rem;
+    height: 12rem;
+    position: relative;
+    .card_txt
+    {
+      padding-top: 1rem;
+      padding-left: 1rem;
+      color: $white;
+    }
+    .balance_txt
+    {
+      @extend .card_txt;
+      padding-top: 1rem;
+    }
+    .available_blnc
+    {
+      @extend .card_txt;
+      padding-top: 0;
+    }
+    .card_num
+    {
+      @extend .card_txt;
+      padding-top: 0;
+    }
+    .expt_card
+    {
+      @extend .card_txt;
+      padding-top: 0;
+    }
+    .card_image
+    {
+      position: absolute;
+      height: 100%;
+      width: 100%;
+    }
+    .contents
+    {
+      width: 100%;
+      height: 100%;
+      position: absolute;
+    }
+  }
+  .setupbanktxt
+  {
+    margin-top: 2rem;
+    color: $black;
+    font-size: 18px;
+    text-decoration-line: underline;
+    line-height: 22px;
+  }
+}
+.subscription
+{
+  background: #F4F4F4;
+  .my_subs_txt
+  {
+    font-family: "Nunito Sans";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    color: #000000;
+  }
+}
+.monetize_subs
+{
+  .user-name
+  {
+    width: 134px!important;
+  }
+}
+.monetize_heading
+{
+  font-family: "Nunito Sans",sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 33px;
+  color: #262B31;
+}
+.monetize
+{
+
+  .bread_crumb
+  {
+    font-family: "Nunito Sans",sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 18px;
+    color: #5A5959;
+  }
+  .heading
+  {
+    font-family: "Nunito Sans";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    color: #000000;
+  }
+}

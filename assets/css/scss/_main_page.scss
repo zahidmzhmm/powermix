@@ -1,0 +1,202 @@
+$primary: #007bff;
+$white : #fff;
+$headlink : #7b7474;
+$linkhov: #222;
+$listcolor: #e0e0e0;
+$bodybg: #F4F4F4;
+$black: #000;
+$hotcolor: #FF9D00;
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+#site_content,#site_content_pro{
+  background-color:$bodybg;
+}
+body{
+  font-family: 'Roboto', sans-serif;
+}
+#site_content_pro .profile .profile_card .profile_inf .price
+{
+  font-size: 18px!important;
+}
+.btn:focus {
+  outline: thin dotted;
+  outline: 5px auto -webkit-focus-ring-color;
+  outline-offset: -2px;
+}
+.btn:focus {
+  outline: none !important;
+}
+.btn:focus {
+  box-shadow: none;
+}
+#site_content,#site_content_pro{
+  background-color: $bodybg;
+  .profile{
+    width: 100%;
+    box-sizing: border-box;
+    .profile_card{
+      width: 100%;
+      background-color: $white;
+      padding: .5rem;
+      box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.08);
+      border-radius: 2px;
+      .profile_cover{
+        width: 100%;
+        max-height: 280px;
+        overflow: hidden;
+        position: relative;
+        z-index: 1;
+        img
+        {
+          width: 100%;
+          height: 100%;
+        }
+        .react{
+          background: rgba(243, 244, 246, 0.5);
+          border-radius: 12px;
+          position: absolute;
+          z-index: 99;
+          top: 4px;
+          right: 4px;
+          width: 2.1em;
+          height: 2.1em;
+          padding: 5px;
+          svg{
+            color: $white;
+          }
+        }
+      }
+      .profile_inf{
+        position: relative;
+        z-index: 2;
+        .profile_image{
+          width: 98px;
+          height: 98px;
+          border-radius: 60px;
+          position: absolute;
+          bottom: 50px;
+          left: 3px;
+          overflow: hidden;
+          border: 1px solid #fff;
+          z-index: 2;
+          img{
+            width: 100%;
+            height: 100%;
+          }
+          @media screen and (max-width: 600px) {
+            width: 95px;
+            height: 95px;
+          }
+
+        }
+
+
+        .user-name{
+          padding: 10px 15px;
+          position: absolute;
+          top: -45px;
+          left: 6rem;
+          background: rgba(85, 100, 231, 0.5);
+          border-radius: 0 20px;
+          color: #FEFEFE;
+          z-index: -1;
+          font-weight: 400;
+          font-family: "Nunito",sans-serif;
+          overflow: hidden;
+          height: 40px;
+          width: 140px;
+          font-size: 16px;
+          letter-spacing: -0.02em;
+          a{
+            color: #FEFEFE;
+            &:hover{
+              text-decoration: none;
+
+            }
+          }
+          @media screen and (max-width: 600px) {
+            font-size: 17px;
+            left: 92px;
+            top: -47px;
+          }
+        }
+        .messagebtn{
+          padding: .3rem 1rem !important;
+          background: #5564E7;
+          border-radius: 20px;
+          font-size: 13px;
+          font-weight: 600;
+          font-family: "Nunito",sans-serif;
+          &:hover{
+            background: #5564E7;
+          }
+        }
+        .icon{
+          display: flex;
+          justify-content: flex-end;
+          color: #ADADAD;
+          font-size: 11px;
+          height: 20px;
+          font-family: "roboto",sans-serif;
+
+          span{
+            display: inline-block;
+            margin-right: .4rem;
+          }
+        }
+        .title{
+          font-size: 12px;
+          font-family: "roboto",sans-serif;
+          color: #4E4F4D;
+        }
+        .price{
+          color: #4E4F4D;
+          font-family: "Nunito",sans-serif;
+          font-size: 15px;
+        }
+      }
+
+    }
+    .experience{
+      padding: .2rem 0rem;
+      .experience-item{
+        padding: .3rem .4rem;
+        background: #FEFEFE;
+        border-radius: 8px;
+        font-size: 11px;
+        margin: .15rem;
+        font-family: "Nunito",sans-serif;
+        font-weight: 300;
+        display: inline-block;
+        color: #393434;
+
+      }
+    }
+  }
+  .subscription_title{
+    font-size: 16px;
+    color: #B8B8B8;
+  }
+  .subscription{
+    .sub_image{
+      width: 190px;
+      height: 190px;
+      overflow: hidden;
+      border-radius: 100%;
+      margin: auto;
+      img{
+        width: 100%;
+        height: 100%;
+      }
+    }
+    .subsc_name{
+      font-weight: 500;
+      color: #282828;
+    }
+
+  }
+}
+@media (min-width: 1200px){
+  .custom_column{
+    max-width: 20%;
+  }
+}

@@ -1,0 +1,69 @@
+.navbar
+{
+  background: #333333;
+  position: absolute;
+  width: 100%;
+  z-index: 999;
+  .navbar-nav
+  {
+    .nav-item
+    {
+      .nav-link
+      {
+        color: $nav_font_color;
+        font-weight: 500;
+        font-size: 14px;
+        &.active
+        {
+          color: $white;
+        }
+        &.active_two
+        {
+          color: $white;
+          position: relative;
+          &::before
+          {
+            content: '';
+            position: absolute;
+            width: 80%;
+            height: 1px;
+            background: $white;
+            bottom: .3rem;
+          }
+        }
+      }
+    }
+  }
+  .left_side
+  {
+    .nav-link
+    {
+      margin-left: 1.7rem;
+    }
+  }
+  .right_side
+  {
+    .nav-link
+    {
+      margin-left: .5rem;
+    }
+    .active_tree
+    {
+      color: $white!important;
+      position: relative;
+      &::before
+      {
+        content: "";
+        position: absolute;
+        height: 1px;
+        background: $white;
+        width: 2.5rem;
+        bottom: 3px;
+      }
+    }
+  }
+}
+.navpadding
+{
+  padding-top: 3.59rem;
+}

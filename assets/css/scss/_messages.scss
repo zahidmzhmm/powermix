@@ -1,0 +1,365 @@
+.bread_crumb
+{
+  a,.icons
+  {
+    font-size: 13px;
+    color: #5A5959;
+  }
+  .icons
+  {
+    font-size: 11px;
+  }
+}
+.head_of_message
+{
+  h3
+  {
+    font-size: 22px;
+    font-weight: 500;
+  }
+  h4
+  {
+    font-size: 20px;
+    font-weight: 500;
+  }
+}
+.message_left
+{
+  background: #F1F2F2;
+  height: 62.1rem; //This is Left Side Height
+  overflow: hidden;
+  &.message_left_overflow
+  {
+    overflow-y: scroll;
+  }
+  .heading
+  {
+    font-family: "Poppins",sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+    color: #616677;
+  }
+  a
+  {
+    &:hover
+    {
+      text-decoration: none;
+    }
+  }
+}
+.user_messaging
+{
+  height: 50rem; //This Right Side Height
+  overflow-y: hidden;
+  .offer_btn
+  {
+    background: #5564E7;
+    border-radius: 3px;
+    color: $white;
+  }
+  .btn_document
+  {
+    background: #BABBC2;
+    color: #787993;
+    font-size: 14px;
+    display: block;
+    font-weight: 300;
+  }
+  .simple_bg_color
+  {
+    border-radius: 5px;
+    margin-right: 6px;
+    background: #FF7D09;
+    padding: .8rem;
+  }
+  .send_a_offer
+  {
+    display: block;
+    font-size: 16px;
+    font-weight: 300;
+    color: #787993;
+  }
+  .messaging
+  {
+    width: 25rem;
+    font-family: "Nunito",sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    background: #4694f92e;
+    padding: 2.3rem 2rem;
+    border-radius: 2rem 2rem 2rem 0;
+  }
+  .message_bg_two
+  {
+    border-radius: 2rem 2rem 0 2rem!important;
+    background: #babbc245;
+    width: 25rem;
+  }
+  .time
+  {
+    font-size: 12px;
+    color: #787993;
+    font-family: "Nunito",sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 16px;
+  }
+}
+.message_form
+{
+  width: 98.6%;
+  height: 8rem;//TextArea Height
+  display: flex;
+  textarea:focus {
+    border-top: 1px solid #ced4da!important;
+    border-bottom: 1px solid transparent!important;
+    border-left: 1px solid transparent!important;
+    border-right: 1px solid transparent!important;
+    box-shadow: 0 1px 1px transparent inset, 0 0 8px transparent;
+    outline: 0 none;
+  }
+  .form-control
+  {
+    border-bottom: 0;
+    border-left: 0;
+    border-right: 0;
+    height: 100%;
+    &:focus
+    {
+      &::placeholder
+      {
+        visibility: hidden;
+      }
+    }
+  }
+  img
+  {
+    height: 40px;
+    width: 40px;
+  }
+  .text_ar
+  {
+    position: relative;
+  }
+  .emoji_at
+  {
+    position: absolute;
+    right: 1rem;
+    color: $gray;
+  }
+}
+.active_user
+{
+  .user_img
+  {
+    position: relative;
+    &::after
+    {
+      content: "";
+      position: absolute;
+      height: 8px;
+      width: 8px;
+      right: 20px;
+      background: #46D362;
+      border: 1px solid #FFFFFF;
+      border-radius: 100%;
+    }
+    img
+    {
+      border-radius: 50%;
+      height: 40px;
+      width: 40px;
+    }
+  }
+}
+.waiting_user
+{
+  .user_img
+  {
+    position: relative;
+    &::after
+    {
+
+      content: "";
+      position: absolute;
+      height: 8px;
+      width: 8px;
+      right: 20px;
+      background: #F3BA4A;
+      border: 1px solid #FFFFFF;
+      border-radius: 100%;
+    }
+    img
+    {
+      border-radius: 50%;
+      height: 40px;
+      width: 40px;
+    }
+  }
+}
+.messages_user
+{
+  overflow: hidden;
+  padding: .2rem 0;
+  .dot
+  {
+    margin-top: 1rem;
+    width: 5px;
+    height: 5px;
+    margin-left: 38%;
+    margin-right: auto;
+    display: block;
+    border-radius: 100%;
+    background: #46D362;
+    position: relative;
+    &::after
+    {
+      content: "";
+      margin-left: .5rem;
+      border-radius: 100%;
+      position: absolute;
+      width: 5px;
+      height: 5px;
+      background: #46d362;
+    }
+  }
+  .user_name
+  {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 18px;
+    color: #52585D;
+  }
+  .hidden_msg
+  {
+    font-weight: 300!important;
+    font-size: 10px;
+    font-family: "roboto",sans-serif;
+    font-style: normal;
+    line-height: 15px;
+    color: #96A9BA;
+  }
+  .time
+  {
+    display: block;
+    font-size: 10px;
+    color: #96A9BA;
+  }
+  .unread_msg
+  {
+    background: #F3BA4A;
+    padding: .3rem .7rem;
+    border-radius: 14px;
+    font-family: "Poppins",sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 10px;
+    line-height: 15px;
+
+    color: #FDFDFE;
+  }
+  &.active_msg
+  {
+    background: rgba(85, 100, 231, 0.7);
+    height: 66px;
+    .user_name
+    {
+      color: #FFFFFF!important;
+    }
+    .hidden_msg
+    {
+      font-weight: 300;
+      color: #FFFFFF!important;
+    }
+    .time
+    {
+      color: #FDFDFE;
+    }
+  }
+}
+.favorites_img
+{
+  width: 40px;
+  height: 40px;
+}
+.message_right
+{
+  .name_show
+  {
+    padding: .6rem 0;
+    background: #FEFEFE;
+    border-top: 1px solid rgba(97, 102, 119, 0.1);
+    border-bottom: 1px solid rgba(97, 102, 119, 0.1);
+    h3
+    {
+      color: #282828;
+      font-weight: 600;
+      font-size: 18px;
+      line-height: 27px;
+    }
+  }
+  .icons
+  {
+    cursor: pointer;
+    margin-left: 1rem;
+    font-size: 18px;
+    color: #616677;
+  }
+}
+.search_msg
+{
+  background: #F7F7F7;
+  box-shadow: 0 1px 3px rgba(97, 102, 119, 0.1);
+  border-radius: 3px;
+  font-family: "Poppins",sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 9px;
+  line-height: 13px;
+  color: rgba(97, 102, 119, 0.4);
+  &:focus {
+    box-shadow: 0 1px 1px transparent inset, 0 0 8px transparent;
+    outline: 0 none;
+    &::placeholder
+    {
+      visibility: hidden;
+      -moz-backface-visibility: hidden;
+    }
+  }
+}
+.right_side_msg
+{
+  font-size: 13px;
+  color: #787993;
+  .text
+  {
+    color: #787993;
+    font-family: "Nunito",sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+  }
+  .name_usr
+  {
+    h2
+    {
+      font-weight: 600;
+      color: #282828;
+      font-size: 26px;
+    }
+    span
+    {
+      font-size: 15px;
+      color: #5564E7;
+      margin-top: .2rem;
+    }
+  }
+}
+/*
+Full Design Created by Zahid Mzhmm https://zahidmzhmm.com
+ */
